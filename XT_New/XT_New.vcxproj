@@ -146,10 +146,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\XT_LUG.cpp" />
+    <ClCompile Include="..\XT_LUG\XT_LUG.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="XT_LUG.def" />
+    <None Include="..\XT_LUG\XT_LUG.def" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
