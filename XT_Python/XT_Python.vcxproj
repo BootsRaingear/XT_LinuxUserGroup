@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Python-2.7.5\Modules\almodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\arraymodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\audioop.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\binascii.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\bsddbmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\bz2module.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\cdmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\cgensupport.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\clmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\cmathmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\cPickle.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\cryptmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\cStringIO.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\datetimemodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\dbmmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\dlmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\errnomodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\fcntlmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\flmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\fmmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\fpectlmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\fpetestmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\future_builtins.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\gcmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\gdbmmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\getaddrinfo.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\getbuildinfo.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\getnameinfo.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\getpath.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\glmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\grpmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\imageop.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\imgfile.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\itertoolsmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\linuxaudiodev.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\main.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\mathmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\md5.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\md5module.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\mmapmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\nismodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\operator.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\ossaudiodev.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\parsermodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\posixmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\puremodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\pwdmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\pyexpat.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\python.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\readline.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\resource.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\rotatingtree.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\selectmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\sgimodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\sha256module.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\sha512module.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\shamodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\signalmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\socketmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\spwdmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\stropmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\sunaudiodev.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\svmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\symtablemodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\syslogmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\termios.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\threadmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\timemodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\timingmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\tkappinit.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\unicodedata.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\xxmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\xxsubtype.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\yuvconvert.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\zipimport.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\zlibmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_bisectmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_bsddb.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_codecsmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_collectionsmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_csv.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_cursesmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_curses_panel.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_elementtree.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_functoolsmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_hashopenssl.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_heapqmodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_hotshot.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_json.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_localemodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_lsprof.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_math.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_randommodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_sre.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_ssl.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_struct.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_testcapimodule.c" />
+    <ClCompile Include="..\..\Python-2.7.5\Modules\_weakref.c" />
+    <ClCompile Include="..\..\src\BGBase.cpp" />
+    <ClCompile Include="..\..\src\BGString.cpp" />
+    <ClCompile Include="..\..\src\Python.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Python-2.7.5\Modules\ar_beos" />
+    <None Include="..\..\Python-2.7.5\Modules\cgen.py" />
+    <None Include="..\..\Python-2.7.5\Modules\config.c.in" />
+    <None Include="..\..\Python-2.7.5\Modules\cstubs" />
+    <None Include="..\..\Python-2.7.5\Modules\gc_weakref.txt" />
+    <None Include="..\..\Python-2.7.5\Modules\ld_so_aix.in" />
+    <None Include="..\..\Python-2.7.5\Modules\ld_so_beos" />
+    <None Include="..\..\Python-2.7.5\Modules\makesetup" />
+    <None Include="..\..\Python-2.7.5\Modules\makexp_aix" />
+    <None Include="..\..\Python-2.7.5\Modules\Setup.config.in" />
+    <None Include="..\..\Python-2.7.5\Modules\Setup.dist" />
+    <None Include="Python.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Python-2.7.5\Modules\addrinfo.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\bsddb.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\cgensupport.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\md5.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\posixmodule.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\rotatingtree.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\socketmodule.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\sre.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\sre_constants.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\testcapi_long.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\timing.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\tkinter.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\unicodedata_db.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\unicodename_db.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\yuv.h" />
+    <ClInclude Include="..\..\Python-2.7.5\Modules\_math.h" />
+    <ClInclude Include="..\src\BGBase.h" />
+    <ClInclude Include="..\src\BGString.h" />
+    <ClInclude Include="..\src\BGVector.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D58A47B-80F6-4963-B49E-D803A0C398E0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>XT_Python</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;XT_PYTHON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>user32.lib;Psapi.lib;debug\XT_Main.lib;Comdlg32.lib;"D:\devel\Python-2.7.3\PCbuild\python27_d.lib"</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>msvcrtd.lib;python27_d.lib</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>Python.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)..\..\bin\XT_Python.dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;XT_PYTHON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>D:\devel\Python-2.7.5\Include;D:\devel\Python-2.7.5\PC;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>user32.lib;Psapi.lib;x64\debug\XT_Main.lib;Comdlg32.lib;D:\devel\Python-2.7.5\PC\VS8.0\amd64\pythoncore.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>msvcrtd.lib;python27_d.lib</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>Python.def</ModuleDefinitionFile>
+      <OutputFile>x64\debug\XT_Python64.dll</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;XT_PYTHON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>D:\devel\Python-2.7.3\Include;D:\devel\Python-2.7.3\PC</AdditionalIncludeDirectories>
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>user32.lib;libcmt.lib;Psapi.lib;Release\XT_Main.lib;"D:\devel\Python-2.7.3\PCbuild\python27.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>Python.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;XT_PYTHON_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>D:\devel\Python-2.7.3\Include;D:\devel\Python-2.7.3\PC</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>user32.lib;libcmt.lib;Psapi.lib;x64\Release\XT_Main.lib;D:\devel\Python-2.7.3\PCbuild-static\amd64\python27.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>Python.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
